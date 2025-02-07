@@ -8,6 +8,8 @@ import Account from './components/Account'
 import Vendors from './components/Vendors'
 import Blog from './components/Blog'
 import './App.css'
+import HomePage from './components/HomePage.jsx'
+import SinglePage from './components/SinglePage.jsx'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/Account" element={<Account />} />
         <Route path="/Vendors" element={<Vendors />} />
         <Route path="/Blog" element={<Blog />} />
+        <Route path = '/view'element={<HomePage/>}/>
+        <Route path = "/Singlecard/:id"element={<SinglePage/>}/>
       </Route>
     </Routes>
     </BrowserRouter>

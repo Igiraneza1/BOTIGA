@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import { Search, User, Heart, ShoppingCart, ChevronDown } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 import '../styles/navbar.css';
-import Login from './Login';
+import Account from './Account';
+import HomePage from './HomePage';
+
 
 const Navbar = () => {
+  const [showAccount, setShowAccount] = useState(false);
   const [showCategories, setShowCategories] = useState(false);
-  const handleLogin = () => {
-    setShowCategories(setShowCategories);
-  }
+  
 
   const categories = [
     'Electronics',
@@ -23,7 +24,7 @@ const Navbar = () => {
 
   return (
     <header className="header">
-      {showCategories && < Login handleLogin = {handleLogin}/>}
+      {showAccount && < Account onClose={ () => setShowAccount(false)}/>}
       <div className="top-navbar">
         <div className="container">
           <Link to="/" className="logo">Botiga</Link>
@@ -53,7 +54,7 @@ const Navbar = () => {
           </div>
 
           <div className="user-actions">
-            <Link to="/account" className="icon-button" onClick={handleLogin}>
+            <Link to="/account" className="icon-button" onClick={''}>
               <User size={20} />
             </Link>
             <Link to="/wishlist" className="icon-button">
@@ -82,6 +83,7 @@ const Navbar = () => {
           </ul>
           <div className="contact-number">
             📞 800-123-4567
+            
           </div>
         </div>
       </nav>
