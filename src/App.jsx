@@ -10,6 +10,7 @@ import Blog from './components/Blog'
 import './App.css'
 import HomePage from './components/HomePage.jsx'
 import SinglePage from './components/SinglePage.jsx'
+import HomeProduct from './components/HomeProduct.jsx'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/Blog" element={<Blog />} />
         <Route path = '/view'element={<HomePage/>}/>
         <Route path = "/Singlecard/:id"element={<SinglePage/>}/>
+        <Route path = '/HomeProduct'element={<HomeProduct/>}/>
       </Route>
     </Routes>
     </BrowserRouter>

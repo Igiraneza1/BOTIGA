@@ -22,7 +22,6 @@ export const productlist = [
     },
 ]   
 function HomePage(){
-    
     return(
         <div className="all">
             {productlist.map((item) => (

@@ -65,6 +65,7 @@ const Navbar = () => {
               <ShoppingCart size={20} />
               <span className="badge">0</span>
             </Link>
+            
           </div>
         </div>
       </div>
@@ -80,6 +81,7 @@ const Navbar = () => {
             <li><Link to="/vendors">Vendors</Link></li>
             <li><Link to="/blog">Blog</Link></li>
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/HomeProduct">Comment</Link></li>
           </ul>
           <div className="contact-number">
             📞 800-123-4567
