@@ -11,6 +11,8 @@ import './App.css'
 import HomePage from './components/HomePage.jsx'
 import SinglePage from './components/SinglePage.jsx'
 import HomeProduct from './components/HomeProduct.jsx'
+import Dashboardlayout from './components/Dashboard/Dashboardlayout.jsx'
+import Dashboardview from './components/Dashboard/Dashboardview.jsx'
 
 function App() {
   return (
@@ -26,6 +28,10 @@ function App() {
         <Route path = '/view'element={<HomePage/>}/>
         <Route path = "/Singlecard/:id"element={<SinglePage/>}/>
         <Route path = '/HomeProduct'element={<HomeProduct/>}/>
+      </Route>
+      <Route path = '/'element={<Dashboardlayout/>}>
+      <Route path = '/dashboard' index element={<Dashboardview/>}/>
+      
       </Route>
     </Routes>
     </BrowserRouter>
