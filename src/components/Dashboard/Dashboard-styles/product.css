@@ -1,0 +1,56 @@
+
+.container1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #12202c;
+    width: auto;
+    height: auto;
+  }
+  
+  .tables {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tables thead {
+    background-color: #f4f4f4;
+  }
+  
+  .tables th {
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .tables td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tables tbody tr:hover {
+    background-color: #4f4b4b;
+    font-size: 20px;
+  }
+  
+  .tables tbody tr:nth-child {
+    background-color: #131212;
+  }
+  
+  .sold-out {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .remaining {
+    color: green;
+    font-weight: bold;
+  }
+  

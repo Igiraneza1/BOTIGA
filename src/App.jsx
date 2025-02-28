@@ -13,6 +13,9 @@ import SinglePage from './components/SinglePage.jsx'
 import HomeProduct from './components/HomeProduct.jsx'
 import Dashboardlayout from './components/Dashboard/Dashboardlayout.jsx'
 import Dashboardview from './components/Dashboard/Dashboardview.jsx'
+import Order from './components/Dashboard/Order.jsx'
+import Stock from './components/Dashboard/Stock.jsx'
+import Product from './components/Dashboard/Product.jsx'
 
 function App() {
   return (
@@ -30,9 +33,14 @@ function App() {
         <Route path = '/HomeProduct'element={<HomeProduct/>}/>
       </Route>
       <Route path = '/'element={<Dashboardlayout/>}>
-      <Route path = '/dashboard' index element={<Dashboardview/>}/>
+      <Route path = '/Dashboardview' index element={<Dashboardview/>}/>
+
       
       </Route>
+      <Route path = '/Order' element={<Order/>}/>
+      <Route path = '/Product' element={<Product/>}/>
+      <Route path = '/Stock' element={<Stock/>}/>
+
     </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,80 @@
+
+.table-container {
+    overflow-x: auto;
+    padding: 3rem;
+  }
+  
+  .table {
+    width: 100%;
+    background-color: #364554;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(28, 28, 28, 0.2);
+  }
+  
+  .table thead {
+    background-color: #1E293B;
+    color: white;
+    text-align: left;
+  }
+  
+  .table th,
+  .table td {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .table tbody tr {
+    border-bottom: 1px solid #374151;
+    transition: background-color 0.3s ease;
+  }
+  td{
+    color: rgb(186, 175, 175);
+  }
+  tr :hover{
+    color: white;
+    font-size: 20px;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #243447;
+  }
+  
+  .progress-container {
+    width: 100%;
+    background-color: #949ead;
+    border-radius: 9999px;
+    height: 10px;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    border-radius: 9999px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .bg-blue {
+    background-color: #3b82f6;
+  }
+  
+  .status {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .status-delivered {
+    background-color: #10b981;
+  }
+  
+  .status-paid {
+    background-color: #facc15;
+  }
+  
+  .status-ordered {
+    background-color: #ef4444;
+  }
+  
