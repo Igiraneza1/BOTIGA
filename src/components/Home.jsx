@@ -6,18 +6,14 @@ import ComputerGadget from '../images/Screenshot 2025-01-28 153920.png';
 import Electronics from '../images/Screenshot 2025-01-28 153927.png';
 import Watch from '../images/Screenshot 2025-01-28 153934.png';
 import WomanClothes from '../images/Screenshot 2025-01-28 155118.png';
-import instapic from '../images/Screenshot 2025-01-28 161648.png'
+
 import smart from '../images/Screenshot 2025-01-28 162450.png'
 import alexa from '../images/Screenshot 2025-01-28 162458.png'
 import headset from '../images/Screenshot 2025-01-28 162506.png'
 import monica from '../images/Screenshot 2025-01-28 163110.png'
 import doe from '../images/Screenshot 2025-01-28 163130.png'
 import digital from '../images/Screenshot 2025-01-28 163143.png'
-import instagram1 from '../images/instagram-1.webp'
-import instagram2 from '../images/instagram-2.webp'
-import instagram4 from '../images/instagram-4.webp'
-import instagram6 from '../images/instagram-6.webp'
-import instagram from '../images/instagram.webp'
+
 import '../styles/home.css';
 import '../styles/homepage.css';
 export const productlist = [
@@ -69,7 +65,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      {/* Hero Section */}
+
       <div className="hero-container">
         <div className="category-menu">
           <ul>
@@ -91,7 +87,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Popular Categories */}
       <section className="popular-categories">
         <div className="container">
           <h2>Popular Categories</h2>
@@ -106,7 +101,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* New Arrival Products */}
       <section className="new-arrivals">
         <div className="container">
           <h2>New Arrival Products</h2>
@@ -129,7 +123,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Vendor List */}
       <section className="vendor-list">
         <div className="container">
           <h2>Our Vendor List</h2>
@@ -148,7 +141,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Why Choose Us */}
       <section className="why-choose-us">
         <div className="container">
           <h2>Why People Choose Us</h2>

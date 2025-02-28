@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-sections">
-        {/* Left Section */}
+        
         <div className="footer-section-left">
           <div className="newsletter">
             <h3>Stay up to date</h3>
@@ -59,7 +59,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Right Section */}
         <div className="footer-section-right">
           <div className="contact-info">
             <h3>Happy to help</h3>

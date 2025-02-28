@@ -39,7 +39,6 @@ const Vendor = () => {
       location: { area: "Central Park", city: "New York", state: "New York", country: "United States (US)"  },
       image: josh, profileImage: josh
     },
-    // Add other store data following the same pattern
   ];
 
   const renderStars = (rating) => {
